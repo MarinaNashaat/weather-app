@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center" href="index.html">
+                <img src="images/logo.png" class="me-3" alt="">
+                <div class="logo-txt">
+                    <h1>Weather</h1>
+                    <span>tagline goes here</span>
+                </div>
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fas fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+ 
+        </div>
+    </nav>
+
+
+    <section id="main-section">
+        <div class="container">
+            <div class="input-group pt-5 position-relative">
+                <input type="text" class="form-control" placeholder="Find your location..."
+                    aria-label="Find your location..." aria-describedby="findBtn">
+                <button class="btn position-absolute" type="button" id="findBtn">Find</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="weather-table">
+        <div class="container weather-container">
+            <div class="row g-0" id="weatherRow">
+          
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-group pt-5 position-relative">
+                        <input type="text" class="form-control" placeholder="Enter your email to subscribe..."
+                            aria-label="Enter your email to subscribe..." aria-describedby="subscribeBtn">
+                        <button class="btn position-absolute" type="button" id="subscribeBtn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-links">
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright-txt mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
